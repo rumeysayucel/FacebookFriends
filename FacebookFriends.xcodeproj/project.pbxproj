@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050B05BB275E42DB00455D4F /* FriendsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B05BA275E42DB00455D4F /* FriendsDetailViewController.swift */; };
 		05490299275B7AAB002DE30C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05490298275B7AAB002DE30C /* AppDelegate.swift */; };
 		0549029B275B7AAB002DE30C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549029A275B7AAB002DE30C /* SceneDelegate.swift */; };
 		0549029D275B7AAB002DE30C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549029C275B7AAB002DE30C /* LoginViewController.swift */; };
@@ -16,10 +17,11 @@
 		054902A8275B7AAC002DE30C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054902A6275B7AAC002DE30C /* LaunchScreen.storyboard */; };
 		054902B3275B7AAD002DE30C /* FacebookFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902B2275B7AAD002DE30C /* FacebookFriendsTests.swift */; };
 		054902BE275B7AAD002DE30C /* FacebookFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902BD275B7AAD002DE30C /* FacebookFriendsUITests.swift */; };
-		054902CC275B8859002DE30C /* FriendsListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902CB275B8859002DE30C /* FriendsListCollectionViewController.swift */; };
 		054902CE275B88BA002DE30C /* FriendsListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902CD275B88BA002DE30C /* FriendsListCollectionViewCell.swift */; };
 		054902D1275BA0AC002DE30C /* PersonInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902D0275BA0AC002DE30C /* PersonInfo.swift */; };
-		054902D4275BA2B2002DE30C /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054902D3275BA2B2002DE30C /* NetworkController.swift */; };
+		056B52AF276111CE0049E6AC /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 056B52AE276111CE0049E6AC /* IQKeyboardManagerSwift */; };
+		05728C33276037250052F89A /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05728C32276037250052F89A /* ImageViewExtension.swift */; };
+		057C00D2275BEEA800E1222A /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C00D1275BEEA800E1222A /* FriendsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050B05BA275E42DB00455D4F /* FriendsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDetailViewController.swift; sourceTree = "<group>"; };
 		05490295275B7AAB002DE30C /* FacebookFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05490298275B7AAB002DE30C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0549029A275B7AAB002DE30C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,10 +58,10 @@
 		054902B9275B7AAD002DE30C /* FacebookFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		054902BD275B7AAD002DE30C /* FacebookFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookFriendsUITests.swift; sourceTree = "<group>"; };
 		054902BF275B7AAD002DE30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		054902CB275B8859002DE30C /* FriendsListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListCollectionViewController.swift; sourceTree = "<group>"; };
 		054902CD275B88BA002DE30C /* FriendsListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListCollectionViewCell.swift; sourceTree = "<group>"; };
 		054902D0275BA0AC002DE30C /* PersonInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfo.swift; sourceTree = "<group>"; };
-		054902D3275BA2B2002DE30C /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		05728C32276037250052F89A /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		057C00D1275BEEA800E1222A /* FriendsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056B52AF276111CE0049E6AC /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,9 +117,8 @@
 				0549029A275B7AAB002DE30C /* SceneDelegate.swift */,
 				054902D2275BA0B1002DE30C /* Model */,
 				054902CF275B88C6002DE30C /* Controller */,
-				0549029E275B7AAB002DE30C /* Main.storyboard */,
+				057C00D3275BEEBD00E1222A /* View */,
 				054902A4275B7AAC002DE30C /* Assets.xcassets */,
-				054902A6275B7AAC002DE30C /* LaunchScreen.storyboard */,
 				054902A9275B7AAC002DE30C /* Info.plist */,
 				054902A1275B7AAB002DE30C /* FacebookFriends.xcdatamodeld */,
 			);
@@ -143,10 +146,10 @@
 		054902CF275B88C6002DE30C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				054902D3275BA2B2002DE30C /* NetworkController.swift */,
 				0549029C275B7AAB002DE30C /* LoginViewController.swift */,
-				054902CB275B8859002DE30C /* FriendsListCollectionViewController.swift */,
+				057C00D1275BEEA800E1222A /* FriendsListViewController.swift */,
 				054902CD275B88BA002DE30C /* FriendsListCollectionViewCell.swift */,
+				050B05BA275E42DB00455D4F /* FriendsDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -155,8 +158,18 @@
 			isa = PBXGroup;
 			children = (
 				054902D0275BA0AC002DE30C /* PersonInfo.swift */,
+				05728C32276037250052F89A /* ImageViewExtension.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		057C00D3275BEEBD00E1222A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0549029E275B7AAB002DE30C /* Main.storyboard */,
+				054902A6275B7AAC002DE30C /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +188,9 @@
 			dependencies = (
 			);
 			name = FacebookFriends;
+			packageProductDependencies = (
+				056B52AE276111CE0049E6AC /* IQKeyboardManagerSwift */,
+			);
 			productName = FacebookFriends;
 			productReference = 05490295275B7AAB002DE30C /* FacebookFriends.app */;
 			productType = "com.apple.product-type.application";
@@ -246,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 0549028C275B7AAB002DE30C;
+			packageReferences = (
+				056B52AD276111CD0049E6AC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 05490296275B7AAB002DE30C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,14 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054902D4275BA2B2002DE30C /* NetworkController.swift in Sources */,
+				057C00D2275BEEA800E1222A /* FriendsListViewController.swift in Sources */,
+				05728C33276037250052F89A /* ImageViewExtension.swift in Sources */,
 				0549029D275B7AAB002DE30C /* LoginViewController.swift in Sources */,
 				054902D1275BA0AC002DE30C /* PersonInfo.swift in Sources */,
-				054902CC275B8859002DE30C /* FriendsListCollectionViewController.swift in Sources */,
 				054902CE275B88BA002DE30C /* FriendsListCollectionViewCell.swift in Sources */,
 				054902A3275B7AAB002DE30C /* FacebookFriends.xcdatamodeld in Sources */,
 				05490299275B7AAB002DE30C /* AppDelegate.swift in Sources */,
 				0549029B275B7AAB002DE30C /* SceneDelegate.swift in Sources */,
+				050B05BB275E42DB00455D4F /* FriendsDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +649,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		056B52AD276111CD0049E6AC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		056B52AE276111CE0049E6AC /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 056B52AD276111CD0049E6AC /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		054902A1275B7AAB002DE30C /* FacebookFriends.xcdatamodeld */ = {

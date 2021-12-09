@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var logoImageView: UIImageView!
     
     var showingAlert = false
     
@@ -20,7 +21,9 @@ class LoginViewController: UIViewController {
         
         loginButton.layer.cornerRadius = 15
         loginButton.layer.borderWidth = 1
-        loginButton.layer.borderColor = UIColor.black.cgColor
+        loginButton.layer.borderColor = UIColor.white.cgColor
+        
+        logoImageView.makeCircular()
     }
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
@@ -32,15 +35,15 @@ class LoginViewController: UIViewController {
         }
     }
     
+    
     func showAlert() {
-        
         showingAlert = true
         
         let showingAlert = UIAlertController(title: "Fault!", message:
                 "Please check your username and password.", preferredStyle: .alert)
-            showingAlert.addAction(UIAlertAction(title: "Close", style: .default))
-
-            self.present(showingAlert, animated: true, completion: nil)
+        showingAlert.addAction(UIAlertAction(title: "Close", style: .default))
+        self.present(showingAlert, animated: true, completion: nil)
     }
+    
 }
 

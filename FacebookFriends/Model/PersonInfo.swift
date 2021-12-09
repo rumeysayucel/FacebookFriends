@@ -34,6 +34,6 @@ struct Location: Codable {
     let coordinates: Coordinates
 }
 struct Coordinates: Codable {
-    let longitude: Double
-    let latitude: Double
+    let longitude: String
+    let latitude: String
 }
